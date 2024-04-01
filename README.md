@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+### Full Stack App Admin dashboard - Single Page Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### Problem Statement:
 
-## Available Scripts
+Design a single page application in React.js with the following features:
 
-In the project directory, you can run:
+#### Frontend:
 
-### `npm start`
+1. **Sidebar**: Contains menus that get highlighted when clicked.
+2. **Page and Table**: A working table with two tabs: "Pending" & "Cancelled".
+3. **Important Features**:
+   - Selecting rows in the table should log the selected rows in the console.
+   - Rendering two tables based on the status property of the common JSON object.
+4. **Search Bar & Filter Options**: Static for display purposes.
+5. **Pagination**: Static for display purposes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#### Backend:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Provide two APIs:
+  1. To add data to the database.
+  2. To retrieve data from the database.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Skills Focused On:
 
-### `npm run build`
+HTML, CSS, JavaScript, React.js, Node.js, Express.js, NoSQL
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Frontend**:
+   - Host the frontend on netlify .
+   - live link(https://euphonious-concha-20607c.netlify.app)
+   - 
+ 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Technologies Used:
 
-### `npm run eject`
+- Frontend: React.js, Material Tailwind CSS.
+- Backend: Node.js, Express.js, NoSQL.
+- Database: MongoDB.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### README.md for the Project
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Installation:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone the repository:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+git clone h https://github.com/Ashish9956/Zenifi_Full_Stack_-Developer_-Intern.git
 
-## Learn More
+2. cd backend
+   npm i
+   npm run dev
+   cd..
+3. cd frontend
+   npm i
+   npm run start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
